@@ -1,0 +1,12 @@
+site_name: MkDocs Test
+dev_addr: '0.0.0.0:8080'
+theme: 'flatly'
+extra_css:
+    - css/extra.css
+
+nav:
+    - Home: index.md
+    - User Guide:
+        - Getting started: user-guide/getting-started.md
+    - About:
+        - License: about/test.md
