@@ -12,8 +12,8 @@ jobs:
         with:
           dockerfile: container/Dockerfile
           path: container
-          username: jamct
+          username: ${{github.repository_owner}}
           password: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.repository }}/docs
+          repository: ${{ github.repository }}/mkdocs
           registry: docker.pkg.github.com
           tags: latest
