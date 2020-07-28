@@ -14,6 +14,6 @@ jobs:
           path: docs
           username: jamct
           password: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ env.GITHUB_REPOSITORY }}/docs
+          repository: ${{ github.repository }}/docs
           registry: docker.pkg.github.com
           tags: latest
