@@ -8,6 +8,5 @@ RUN mkdocs build
 
 #web server stage
 FROM nginx:alpine
-COPY --from=0 /mkdocs/site/ 
-\/usr/share/nginx/html
+COPY --from=0 /mkdocs/site/ /usr/share/nginx/html
 EXPOSE 80
