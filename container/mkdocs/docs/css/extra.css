@@ -1,4 +1,16 @@
-/*Just some ugly demo CSS...*/
-h1{
-    color: #8b0000;
-  }
+:root {
+
+  /* Primary color shades */
+  --md-primary-fg-color:               #B51F10 ;
+  --md-primary-fg-color--light:        ...;
+  --md-primary-fg-color--dark:         ...;
+  --md-primary-bg-color:               #ccc;
+  --md-primary-bg-color--light:        #eee;
+
+    /* Accent color shades */
+ --md-accent-fg-color:               ... ;
+ --md-accent-fg-color--transparent:   ...;
+ --md-accent-bg-color:                ...;
+ --md-accent-bg-color--light:         ...;
+
+}

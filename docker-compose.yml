@@ -3,6 +3,6 @@ services:
   docs:
     build:
       context: ./container
-      dockerfile: Dockerfile-prod
+      dockerfile: Dockerfile
     ports:
-      - 8080:80
+      - 80:80

@@ -1,12 +1,20 @@
 site_name: MkDocs Test
 dev_addr: '0.0.0.0:8080'
-theme: 'flatly'
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+theme:
+  name: material
+  language: de
+  font: false
+  favicon: favicon.png
+  logo: favicon.png
+
+site_author: ""
 extra_css:
     - css/extra.css
-
 nav:
-    - Home: index.md
-    - User Guide:
-        - Getting started: user-guide/getting-started.md
-    - About:
-        - License: about/test.md
+  - Home: index.md
+  - Einrichtung: user-guide/getting-started.md
+  - Impressum: legal/imprint.md

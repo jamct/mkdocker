@@ -13,7 +13,7 @@ For development start with docker-compose:
 docker-compose -f docker-compose-dev.yml up
 ```
 
-Container starts an page is running on port 8080. You can live edit 
+Container starts an page is running on port 8080. You can live edit.
 
 
 ## Run in production
@@ -21,6 +21,6 @@ Container starts an page is running on port 8080. You can live edit
 For production start with docker-compose:
 
 ```
-docker-compose -f docker-compose.yml up -d
+docker-compose up -d
 ```
 
