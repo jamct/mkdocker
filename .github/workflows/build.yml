@@ -14,6 +14,6 @@ jobs:
           path: container
           username: ${{github.repository_owner}}
           password: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.repository }}/mkdocs
+          repository: ${{ github.repository }}/my-mkdocs
           registry: docker.pkg.github.com
           tags: latest
