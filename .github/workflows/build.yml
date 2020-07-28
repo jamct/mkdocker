@@ -10,8 +10,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: docker/build-push-action@v1
         with:
-          dockerfile: docs/Dockerfile-prod
-          path: docs
+          dockerfile: container/Dockerfile
+          path: container
           username: jamct
           password: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}/docs
